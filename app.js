@@ -2,8 +2,8 @@ var inputBox = document.querySelector("#input-Box");
 var btnTranslate = document.querySelector(".btn-translate");
 var outputBox = document.querySelector(".output-Box")
 
-const url = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
-// const url = "https://api.funtranslations.com/translate/pirate.json"
+// const url = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
+const url = "https://api.funtranslations.com/translate/pirate.json"
 
 
 var urlConverter = (inputBox) => {
